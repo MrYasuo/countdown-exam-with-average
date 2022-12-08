@@ -1,5 +1,6 @@
 import {
 	Button,
+	Image,
 	InputNumber,
 	Space,
 	Statistic,
@@ -137,7 +138,10 @@ const App = () => {
 						return prev - 1;
 					})
 				}>
-				Tap here to finish one question
+				<Space direction="vertical">
+					<Image src="/cpu.jpg" />
+					<Typography.Text>Tap here to finish one question</Typography.Text>
+				</Space>
 			</Button>
 		</div>
 	);
