@@ -139,7 +139,7 @@ const App = () => {
 					})
 				}>
 				<Space direction="vertical">
-					<Image src="/cpu.jpg" />
+					<Image src="/cpu.jpg" preview={false} />
 					<Typography.Text>Tap here to finish one question</Typography.Text>
 				</Space>
 			</Button>
